@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "telegrambot-daniel"
+version = "0.1.0"
+description = ""
+authors = ["OLuwatobiTobias <giwaoluwatobi@gmail.com>"]
+readme = "README.md"
+packages = [{include = "telegrambot_daniel"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-telegram-bot = {extras = ["http2"], version = "^20.2"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
