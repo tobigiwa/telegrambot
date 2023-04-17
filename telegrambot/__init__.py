@@ -2,4 +2,4 @@
 from telegrambot.configs import BOT_TOKEN
 
 # local functions
-from telegrambot.bots import start
+import telegrambot.handlerFuncs as handler_Funcs
